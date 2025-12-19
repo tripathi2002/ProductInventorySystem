@@ -1,0 +1,21 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Compiled binary addons (https://nodejs.org/api/addons.html)
+build/Release
+
+# Dependency directories
+node_modules/
+config/
+
+
+# Ignore all .env.* files except .env.example
+.env
+.env.*
+!.env.example
+
+images/uploads
